@@ -1,0 +1,16 @@
+{
+  "name": "PabloZagni/FlowbiteBladeComponents",
+  "description": "Set of custom blade components using Flowbite",
+  "type": "library",
+  "require": {
+    "php": "^8.0.2"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pablo Zagni",
+      "email": "pablozagni@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
