@@ -1,2 +1,5 @@
-# FlowbiteBladeComponents
-Set of custom blade components using Flowbite 
+# pablozagni/flowbite-blade-components
+
+Set of custom Laravel Blade components using Flowbite.
+
+
