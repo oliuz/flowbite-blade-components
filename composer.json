@@ -2,10 +2,20 @@
   "name": "pablozagni/flowbite-blade-components",
   "description": "Set of custom blade components using Flowbite",
   "type": "library",
+  "keywords": [
+    "laravel",
+    "laravel components",
+    "flowbite",
+    "flowbite components",
+    "blade",
+    "blade components"
+    ],  
   "require": {
-    "php": "^8.0.2"
+    "php": "^8.0.2",
+    "laravel/framework": "^8.83|^9.16|^10.0",
+    "livewire/livewire": "^2.10"
   },
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Pablo Zagni",
