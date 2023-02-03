@@ -1,5 +1,5 @@
 {
-  "name": "PabloZagni/FlowbiteBladeComponents",
+  "name": "pablozagni/flowbite-blade-components",
   "description": "Set of custom blade components using Flowbite",
   "type": "library",
   "require": {
