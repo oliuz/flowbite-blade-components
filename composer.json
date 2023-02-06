@@ -1,37 +1,41 @@
 {
-  "name": "pablozagni/flowbite-blade-components",
-  "description": "Set of custom blade components using Flowbite",
-  "type": "library",
-  "keywords": [
-    "laravel",
-    "laravel components",
-    "flowbite",
-    "flowbite components",
-    "blade",
-    "blade components"
+    "name": "pablozagni/flowbite-blade-components",
+    "description": "Set of custom blade components using Flowbite",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "laravel components",
+        "flowbite",
+        "flowbite components",
+        "blade",
+        "blade components"
     ],
-  "require": {
-    "php": "^7.0||^8.0.",
-    "laravel/framework": "^7.0||^8.83|^9.16|^10.0"
-  },
-  "autoload": {
-    "psr-4": {
-        "pablozagni\\flowbite-blade-components\\": "src/"
-    }
-    },  
-  "extra" :{
-    "laravel" : {
-        "providers" : [
-            "FlowbiteBladeComponents\\Providers\\FlowbiteBladeComponentsServiceProvider"
-        ]
-    }
-  },
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Pablo Zagni",
-      "email": "pablozagni@gmail.com"
-    }
-  ],
-  "minimum-stability": "dev"
+    "require": {
+        "php": "^7.0||^8.0.",
+        "laravel/framework": "^7.0|^8.83|^9.16|^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pablozagni\\FlowbiteBladeComponents\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pablozagni\\FlowbiteBladeComponents\\Providers\\FlowbiteBladeComponentsServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Zagni",
+            "email": "pablozagni@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
