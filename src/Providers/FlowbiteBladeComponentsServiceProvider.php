@@ -9,8 +9,8 @@ class FlowbiteBladeComponentsServiceProvider extends ServiceProvider {
     public function boot()
     {
         $this->publishes([
-            '/resources/views/publishable' => base_path('/resources/view/Components'),
-        ],'FlowbiteBladeComponents-views');
+            '/resources/views/components' => base_path('/resources/view/components'),
+        ],'flowbite-blade-components.views');
     }
 
     public function register()
