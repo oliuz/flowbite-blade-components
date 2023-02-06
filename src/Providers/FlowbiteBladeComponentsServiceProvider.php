@@ -1,6 +1,6 @@
 <?php
 
-namespace FlowbiteBladeComponents;
+namespace FlowbiteBladeComponents\Providers;
  
 use Illuminate\Support\ServiceProvider;
  
