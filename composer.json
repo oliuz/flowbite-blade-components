@@ -11,9 +11,15 @@
     "blade components"
     ],  
   "require": {
-    "php": "^8.0.2",
-    "laravel/framework": "^8.83|^9.16|^10.0",
-    "livewire/livewire": "^2.10"
+    "php": "^7.0||^8.0.",
+    "laravel/framework": "^7.0||^8.83|^9.16|^10.0"
+  },
+  "extra" :{
+    "laravel" : {
+        "providers" : [
+            "src\\Providers\\FlowbiteBladeComponentsProvider"
+        ]
+    }
   },
   "license": "MIT",
   "authors": [
