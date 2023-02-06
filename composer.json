@@ -22,7 +22,7 @@
   "extra" :{
     "laravel" : {
         "providers" : [
-            "src\\Providers\\FlowbiteBladeComponentsServiceProvider"
+            // "src\\Providers\\FlowbiteBladeComponentsServiceProvider"
         ]
     }
   },
