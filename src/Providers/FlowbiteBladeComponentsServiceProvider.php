@@ -10,16 +10,13 @@ class FlowbiteBladeComponentsServiceProvider extends ServiceProvider
     public function boot()
     {
         // Loading the views.
-        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'flowbite-blade-components');
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'fbc');
 
         // Publishing the views.
         $this->publishes([
-            __DIR__ . '/../../resources/views' => resource_path('views/vendor/flowbite-blade-components'),
-        ], 'FlowbiteBladeComponents-views');
+            __DIR__ . '/../../resources/views' => resource_path('views/vendor/fbc'),
+        ], 'fbc-views');
 
-//        $this->publishes([
-//            __DIR__.'/../../resources/views' => base_path('/resources/view/Components'),
-//        ], 'FlowbiteBladeComponents-views');
     }
 
     public function register()
