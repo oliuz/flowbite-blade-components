@@ -8,14 +8,14 @@ Laravel 9 uses Tailwindow. One of the most powerfull component suite is Flowbite
 
 Use:
 
-php artisan vendor:publish --tag=fbc-views
+php artisan vendor:publish --tag=fbc-components
 
-To publish components to \resources\views\vendors\fbc\components
+To publish components to \resources\views\components
 
 Usage:
 
-<x-fbc::table>
+<x-z-table>
     {...}
-</x-fbc::table>
+</x-z-table>
 
 in any view
