@@ -1,1 +1,0 @@
-<h3 {{ $attributes->merge(['class' => 'text-2xl font-extrabold dark:text-white']) }}>{{ $slot }}</h3>
